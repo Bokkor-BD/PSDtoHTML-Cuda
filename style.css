@@ -1,0 +1,438 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.3;
+}
+
+/* HEADER CSS START */
+header{
+	background: #87509c;
+	overflow: hidden;
+	padding-bottom: 140px;
+}
+
+.container{
+	width: 1000px;
+	margin: auto;
+}
+
+.header_top{
+	overflow: hidden;
+	margin-top: 56px;
+}
+
+.menu{
+	width: 100%;
+	float: left;
+	text-align: right;
+	margin-top:-35px;
+}
+
+.menu nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+
+.menu nav ul li a{
+	color: #eae5ed;
+	text-decoration: none;
+	padding: 5px 16px;
+	display: block;
+	text-transform: uppercase;
+	transition: .3s;
+}
+
+.menu nav ul li a:hover{
+	background: #643a79;
+	border-radius: 5px;
+}
+
+
+.active {
+
+    background:#643a79;
+    border-radius:5px;
+}
+
+.header_content{
+	width: 85%;
+	text-align: center;
+	margin: auto;
+	margin-top: 146px;
+}
+
+.header_content h2{
+	color: #f7f3ea;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.brown_btn{
+	width: 275px;
+	text-align: center;
+	background: #eb7d4b;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fef8f6;
+	padding: 20px;
+	margin-top: 60px;
+	border-radius: 5px;
+	border-bottom: 4px solid #c86a40;
+	display: inline-block;
+}
+
+/* HEADER CSS END */
+
+/* SERVICE AREA CSS START */
+.service{
+	background: #17c2a4;
+	padding: 120px 0px;
+}
+
+.service:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.service_box{
+	width: 24%;
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 80px;
+}
+
+.section_header{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+}
+
+.section_header h3{
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 50px;
+	position: relative;
+}
+
+.section_header h3:after{
+	background: #14a58c;
+	content: "";
+	width: 90px;
+	height: 4px;
+	left: 100px;
+	top: 100px;
+	transform:translate(180%, 180%);
+	position: absolute;
+}
+
+.section_header p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #f0fbf9;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.service_box img{
+	width: 100px;
+	height: 125px;
+}
+
+.service_box svg{
+	width: 100px ;
+	height: 125px;
+	font-size: 100px;
+	color: mediumvioletred;
+}
+
+.service_box p{
+	color: #f0fbf9;
+	margin-top: 30px;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.service_box h4{
+	font-size: 26px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 50px;
+	text-transform: uppercase;
+}
+/* SERVICE AREA CSS END */
+
+/* TEAM AREA CSS START */
+.team{
+	background: #e7f1f8;
+	padding: 120px 0px;
+}
+
+.team:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.team_box{
+	width: 24%;
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 80px;
+}
+
+.team_header{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	color: #3c4761;
+}
+
+.team_header h3{
+	font-size: 40px;
+	font-weight: 700;
+	color: #3c4761;
+	padding-top: 50px;
+	position: relative;
+}
+
+.team_header h3:after{
+	background: #c8d9e5;
+	content: "";
+	width: 90px;
+	height: 4px;
+	left: 100px;
+	top: 100px;
+	transform:translate(180%, 180%);
+	position: absolute;
+}
+
+.team_header p{
+	width: 110%;
+	font-size: 18px;
+	font-weight: 400;
+	color: #3c4761;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.team_box img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	filter: grayscale(100%);
+}
+
+.team_box:hover img{
+	filter: grayscale(0%);
+}
+/* .team_box svg{
+	width: 100px ;
+	height: 125px;
+	font-size: 100px;
+	color: mediumvioletred;
+} */
+
+.team_box p{	
+	color: #47526b;
+	margin-bottom: 20px;
+}
+
+.team_box h4{
+	font-size: 24px;
+	font-weight: 700;
+	color: #3c4761;
+	padding-top: 16px;
+	text-transform: uppercase;
+}
+
+.team_box h6{
+	font-size: 16px;
+	font-weight: 400;
+	color: #48c1e9;
+	padding-top: 5px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.social_icon{
+	margin-top: 30px;
+}
+
+.social_icon svg{
+	width: 20px !important;
+	height: 20px;
+	color: #fff;
+	background: #bdd1df;
+	border-radius: 50%;
+	padding: 5px;
+	margin-left: 5px;
+}
+/* TEAM AREA END */
+
+/* SKILL SECTION CSS START */
+.skill_section{
+	background: #fff;
+	padding: 115px 0px;
+}
+.skill_header{
+	width: 70%;
+	text-align: center;
+	margin:  auto;
+}
+
+.skill_header h3{
+	color: #3c4761;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+
+
+.skill_header h3:after {
+    background: #dfe8ed;
+    content: "";
+    width: 90px;
+    height: 4px;
+    left: 125px;
+    top: 50px;
+    transform: translate(200%, 200%);
+    position: absolute;
+}
+
+.skill_header p{
+	width: 80%;
+	color: #3c4761;
+	font-size: 18px;
+	font-weight: 400;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+.skill_box{
+	width: 24%;
+	float: left;
+	margin-bottom: 120px;
+	display: block;
+}
+
+/* SKILL SECTION CSS START */
+
+/* PORTFOLIO SECTION START */
+.portfolio_section{
+	background: #ffdd99;
+	clear: both;
+}
+
+.portfolio_header h3{
+	color: #393939;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.portfolio_header h3:after{
+	width: 90px;
+	height: 4px;
+	background: #e5c37f;
+	content: "";
+	top: 80%;
+	left: 37%;
+	transform: translate(100%, 100%);
+	position: absolute;
+}
+
+.portfolio_header p{
+	color: #393939;
+	font-size: 18px;
+	font-weight: 400;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 45px;
+	text-align: center;
+}
+
+.portfolio_menu{
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.menu2 ul li{
+	list-style:none;
+	display: inline-block;	
+}
+
+.menu2 ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 30px 10px 30px;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-bottom: 60px;
+	border-radius: 10px;
+	color: #393939;
+	background: #ebc985;
+}
+
+.menu2 ul li a:hover{
+	background: #fff;
+}
+
+.portfolio_box{
+	width: 48%;
+	float: left;
+}
+
+.portfolio_box img{
+	width: 90%;
+}
+
+.portfolio_box p{
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.clear{
+	clear: both;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+
+.portfolio_btn {
+	width: 290px;
+	margin: 60px auto;
+	padding: 20px 0px;
+	background: #17c2a4;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 5px;
+	border-bottom: 4px solid #14a58c;
+	display: block;
+}
+
+
+
+/* PORTFOLIO SECTION END */
